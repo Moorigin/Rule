@@ -31,6 +31,7 @@
         "o33249.ingest.sentry.io"
       ],
       "domain_suffix": [
+        ".ai.cloudflare.com",
         ".ai.com",
         ".algolia.net",
         ".api.statsig.com",
