@@ -14,6 +14,7 @@
 DOMAIN-SUFFIX,ai.zdcy.org
 DOMAIN-SUFFIX,gpt.zdcy.org
 DOMAIN-SUFFIX,palm.zdcy.org
+DOMAIN-SUFFIX,ai.cloudflare.com
 # - Claude
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
