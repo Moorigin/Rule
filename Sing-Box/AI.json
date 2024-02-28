@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        "cdn.usefathom.com",
         "browser-intake-datadoghq.com",
         "static.cloudflareinsights.com",
         "ai.com",
@@ -31,8 +32,13 @@
         "o33249.ingest.sentry.io"
       ],
       "domain_suffix": [
+        ".ai.zdcy.org",
+        ".gpt.zdcy.org",
+        ".palm.zdcy.org",
         ".ai.cloudflare.com",
-        "generativelanguage.googleapis.com",
+        ".anthropic.com",
+        ".claude.ai",
+        ".generativelanguage.googleapis.com",
         ".ai.com",
         ".algolia.net",
         ".api.statsig.com",
