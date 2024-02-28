@@ -32,6 +32,7 @@
       ],
       "domain_suffix": [
         ".ai.cloudflare.com",
+        "generativelanguage.googleapis.com",
         ".ai.com",
         ".algolia.net",
         ".api.statsig.com",
