@@ -3,16 +3,6 @@
   "rules": [
     {
       "domain": [
-        "bard.google.com",
-        "deepmind.com",
-        "deepmind.google",
-        "gemini.google.com",
-        "generativeai.google",
-        "proactivebackend-pa.googleapis.com",
-        "apis.google.com",
-        "ai.google.dev",
-        "alkalimakersuite-pa.clients6.google.com",
-        "makersuite.google.com",
         "cdn.usefathom.com",
         "browser-intake-datadoghq.com",
         "static.cloudflareinsights.com",
@@ -44,17 +34,9 @@
       "domain_suffix": [
         ".ai.zdcy.org",
         ".gpt.zdcy.org",
-        ".palm.zdcy.org",
         ".ai.cloudflare.com",
         ".anthropic.com",
         ".claude.ai",
-        ".bard.google.com",
-        ".deepmind.com",
-        ".deepmind.google",
-        ".gemini.google.com",
-        ".generativeai.google",
-        ".proactivebackend-pa.googleapis.com",
-        ".apis.google.com",
         ".ai.com",
         ".algolia.net",
         ".api.statsig.com",
@@ -80,9 +62,6 @@
         ".turn.livekit.cloud"
       ],
       "domain_keyword": [
-        "colab",
-        "developerprofiles",
-        "generativelanguage",
         "openai"
       ]
     }
