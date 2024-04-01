@@ -5,17 +5,14 @@
 # License: AGPL 3.0
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
-# - Custom
+# - Gateway
 # - Claude
 # - Gemini
 # - OpenAI
 ########################################
-# - Custom
-DOMAIN-SUFFIX,ai.zdcy.org
-DOMAIN-SUFFIX,gpt.zdcy.org
-DOMAIN-SUFFIX,palm.zdcy.org
+# - Gateway
 DOMAIN-SUFFIX,ai.cloudflare.com
-# - Claude
+# - Anthropic
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
