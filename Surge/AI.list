@@ -13,7 +13,7 @@
 # - Gateway
 DOMAIN-SUFFIX,ai.cloudflare.com
 # - Anthropic
-DOMAIN,cdn.usefathom.com
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 # - Gemini
@@ -37,8 +37,7 @@ DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,cdn.cloudflare.net
-DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
@@ -59,6 +58,5 @@ DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,14061,no-resolve
 IP-ASN,20473,no-resolve
 ################# END ###################
