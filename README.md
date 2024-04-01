@@ -7,9 +7,9 @@
 ### Surge  
 - MAIN分支：
 ```
-https://cdn.jsdelivr.net/gh/Moorigin/Rule@main/Surge/Bahamut.list
+https://raw.githubusercontent.com/Moorigin/Rule/main/Surge/AI.list
 ```
 - MAIN分支CDN：
 ```
-https://raw.githubusercontent.com/Moorigin/Rule/main/Surge/Bahamut.list
+https://cdn.jsdelivr.net/gh/Moorigin/Rule@main/Surge/AI.list
 ```
