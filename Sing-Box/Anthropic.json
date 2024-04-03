@@ -3,8 +3,8 @@
   "rules": [
     {
       "domain": [
-        "claude.ai"
-        "anthropic.com"
+        "claude.ai",
+        "anthropic.com",
         "servd-anthropic-website.b-cdn.net"
       ],
       "domain_suffix": [
