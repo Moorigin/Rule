@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain": [
+        // OpenAI
         "ai.com",
         "algolia.net",
         "api.statsig.com",
@@ -30,13 +31,16 @@
         "static.cloudflareinsights.com"
       ],
       "ip_cidr": [
+        // OpenAI
         "24.199.123.28/32",
         "64.23.132.171/32"
       ],
       "domain_keyword": [
+        // OpenAI
         "openai"
       ],
       "domain_suffix": [
+        // OpenAI
         ".ai.com",
         ".algolia.net",
         ".api.statsig.com",
