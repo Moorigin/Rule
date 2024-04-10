@@ -3,6 +3,8 @@
   "rules": [
     {
       "domain": [
+        // Gateway
+        "ai.cloudflare.com",
         // Anthropic
         "claude.ai",
         "anthropic.com",
@@ -61,6 +63,8 @@
         "openai"
       ],
       "domain_suffix": [
+        // Gateway
+        ".ai.cloudflare.com",
         // Anthropic
         ".anthropic.com",
         ".claude.ai",
