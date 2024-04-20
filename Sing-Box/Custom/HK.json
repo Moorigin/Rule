@@ -1,0 +1,14 @@
+
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "zdcy.org"
+      ],
+      "domain_suffix": [
+        ".zdcy.org"
+      ]
+    }
+  ]
+}
