@@ -4,10 +4,12 @@
   "rules": [
     {
       "domain": [
-        "zdcy.org"
+        "zdcy.org",
+        "stream-link.org"
       ],
       "domain_suffix": [
-        ".zdcy.org"
+        ".zdcy.org",
+        ".stream-link.org"
       ]
     }
   ]
