@@ -4,10 +4,10 @@
   "rules": [
     {
       "domain": [
-        "misakaf.org"
+        "civitai.com"
       ],
       "domain_suffix": [
-        ".misakaf.org"
+        ".civitai.com"
       ]
     }
   ]
