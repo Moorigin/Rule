@@ -5,10 +5,14 @@
     {
       "domain": [
         "zdcy.org",
+        "misakaf.org",
+        "cloudfront.net",
         "stream-link.org"
       ],
       "domain_suffix": [
         ".zdcy.org",
+        ".misakaf.org",
+        ".cloudfront.net",
         ".stream-link.org"
       ]
     }
