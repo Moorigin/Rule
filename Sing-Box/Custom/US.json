@@ -4,9 +4,29 @@
   "rules": [
     {
       "domain": [
+        // E-hentai
+        "e-hentai.org",
+        "ehgt.org",
+        "ehtracker.org",
+        "ehwiki.org",
+        "exhentai.org",
+        "hath.network",
+        "hentaiathome.net",
+        "hentaiverse.org",
+        // Civitai
         "civitai.com"
       ],
       "domain_suffix": [
+        // E-hentai
+        ".e-hentai.org",
+        ".ehgt.org",
+        ".ehtracker.org",
+        ".ehwiki.org",
+        ".exhentai.org",
+        ".hath.network",
+        ".hentaiathome.net",
+        ".hentaiverse.org",
+        // Civitai
         ".civitai.com"
       ]
     }
