@@ -4,6 +4,13 @@
   "rules": [
     {
       "domain": [
+        // Binance
+        "bntrace.com",
+        "binance.com",
+        "binancecnt.com",
+        "binance.info",
+        // Wise
+        "wise.com",
         // E-hentai
         "e-hentai.org",
         "ehgt.org",
@@ -17,6 +24,13 @@
         "civitai.com"
       ],
       "domain_suffix": [
+        // Binance
+        ".bntrace.com",
+        ".binance.com",
+        ".binancecnt.com",
+        ".binance.info",
+        // Wise
+        ".wise.com",
         // E-hentai
         ".e-hentai.org",
         ".ehgt.org",
