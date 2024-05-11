@@ -5,12 +5,18 @@
     {
       "domain": [
         // Binance
-        "bntrace.com",
+        "appsflayer.com",
+        "binance.cloud",
         "binance.com",
+        "binance.me",
         "binancecnt.com",
-        "binance.info",
-        // Wise
-        "wise.com",
+        "binancefuture.com",
+        "bnappzh.co",
+        "bnbstatic.com",
+        "bnbzh.ac",
+        "bntrace.com",
+        "saasexch.cc",
+        "saasexch.com",
         // E-hentai
         "e-hentai.org",
         "ehgt.org",
@@ -25,12 +31,18 @@
       ],
       "domain_suffix": [
         // Binance
-        ".bntrace.com",
+        ".appsflayer.com",
+        ".binance.cloud",
         ".binance.com",
+        ".binance.me",
         ".binancecnt.com",
-        ".binance.info",
-        // Wise
-        ".wise.com",
+        ".binancefuture.com",
+        ".bnappzh.co",
+        ".bnbstatic.com",
+        ".bnbzh.ac",
+        ".bntrace.com",
+        ".saasexch.cc",
+        ".saasexch.com",
         // E-hentai
         ".e-hentai.org",
         ".ehgt.org",
