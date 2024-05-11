@@ -25,9 +25,7 @@
         "exhentai.org",
         "hath.network",
         "hentaiathome.net",
-        "hentaiverse.org",
-        // Civitai
-        "civitai.com"
+        "hentaiverse.org"
       ],
       "domain_suffix": [
         // Binance
@@ -51,9 +49,7 @@
         ".exhentai.org",
         ".hath.network",
         ".hentaiathome.net",
-        ".hentaiverse.org",
-        // Civitai
-        ".civitai.com"
+        ".hentaiverse.org"
       ]
     }
   ]
