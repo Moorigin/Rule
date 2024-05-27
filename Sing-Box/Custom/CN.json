@@ -2,11 +2,8 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-        "moorigin.cc"
-      ],
       "domain_suffix": [
-        ".moorigin.cc"
+        "moorigin.cc"
       ]
     }
   ]
