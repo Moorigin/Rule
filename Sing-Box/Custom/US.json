@@ -3,7 +3,7 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
+      "domain_suffix": [
         // Binance
         "appsflayer.com",
         "binance.cloud",
@@ -26,30 +26,6 @@
         "hath.network",
         "hentaiathome.net",
         "hentaiverse.org"
-      ],
-      "domain_suffix": [
-        // Binance
-        ".appsflayer.com",
-        ".binance.cloud",
-        ".binance.com",
-        ".binance.me",
-        ".binancecnt.com",
-        ".binancefuture.com",
-        ".bnappzh.co",
-        ".bnbstatic.com",
-        ".bnbzh.ac",
-        ".bntrace.com",
-        ".saasexch.cc",
-        ".saasexch.com",
-        // E-hentai
-        ".e-hentai.org",
-        ".ehgt.org",
-        ".ehtracker.org",
-        ".ehwiki.org",
-        ".exhentai.org",
-        ".hath.network",
-        ".hentaiathome.net",
-        ".hentaiverse.org"
       ]
     }
   ]
