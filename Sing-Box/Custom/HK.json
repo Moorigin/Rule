@@ -3,18 +3,12 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
+      "domain_suffix": [
+        "hk",
         "zdcy.org",
         "misakaf.org",
         "cloudfront.net",
         "stream-link.org"
-      ],
-      "domain_suffix": [
-        ".hk",
-        ".zdcy.org",
-        ".misakaf.org",
-        ".cloudfront.net",
-        ".stream-link.org"
       ]
     }
   ]
