@@ -2,13 +2,12 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
+      "domain_suffix": [
         // Gateway
         "ai.cloudflare.com",
         // Anthropic
-        "claude.ai",
         "anthropic.com",
-        "servd-anthropic-website.b-cdn.net",
+        "claude.ai",
         // Gemini
         "bard.google.com",
         "deepmind.com",
@@ -17,12 +16,7 @@
         "generativeai.google",
         "proactivebackend-pa.googleapis.com",
         "apis.google.com",
-        "ai.google.dev",
-        "alkalimakersuite-pa.clients6.google.com",
-        "makersuite.google.com",
         // OpenAI
-        "browser-intake-datadoghq.com",
-	"static.cloudflareinsights.com",
 	"ai.com",
 	"algolia.net",
 	"api.statsig.com",
@@ -59,43 +53,6 @@
         "generativelanguage",
         // OpenAI
         "openai"
-      ],
-      "domain_suffix": [
-        // Gateway
-        ".ai.cloudflare.com",
-        // Anthropic
-        ".anthropic.com",
-        ".claude.ai",
-        // Gemini
-        ".bard.google.com",
-        ".deepmind.com",
-        ".deepmind.google",
-        ".gemini.google.com",
-        ".generativeai.google",
-        ".proactivebackend-pa.googleapis.com",
-        ".apis.google.com",
-        // OpenAI
-	".ai.com",
-	".algolia.net",
-	".api.statsig.com",
-	".auth0.com",
-	".chatgpt.com",
-	".chatgpt.livekit.cloud",
-	".client-api.arkoselabs.com",
-	".events.statsigapi.net",
-	".featuregates.org",
-	".host.livekit.cloud",
-	".identrust.com",
-	".intercom.io",
-	".intercomcdn.com",
-	".launchdarkly.com",
-	".oaistatic.com",
-	".oaiusercontent.com",
-	".observeit.net",
-	".segment.io",
-	".sentry.io",
-	".stripe.com",
-	".turn.livekit.cloud"
       ]
     }
   ]
