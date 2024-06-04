@@ -8,7 +8,12 @@
         "zdcy.org",
         "misakaf.org",
         "cloudfront.net",
-        "stream-link.org"
+        "stream-link.org",
+        # APKPure
+        "apkpure.com",
+        "cdnpure.com",
+        "pureapk.com",
+        "winudf.com"
       ]
     }
   ]
