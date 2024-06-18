@@ -4,7 +4,12 @@
     {
       "domain_suffix": [
         // Bilibili
-        "szbdyd.com"
+        "szbdyd.com",
+        "bilicdn1.com",
+        "bilicdn2.com",
+        "bilicdn3.com",
+        "bilicdn4.com",
+        "bilicdn5.com"
       ]
     }
   ]
