@@ -4,15 +4,8 @@
     {
       "domain_suffix": [
         "hk",
-        "zdcy.org",
-        "misakaf.org",
         "cloudfront.net",
         "stream-link.org",
-        // APKPure
-        "apkpure.com",
-        "cdnpure.com",
-        "pureapk.com",
-        "winudf.com"
       ]
     }
   ]
