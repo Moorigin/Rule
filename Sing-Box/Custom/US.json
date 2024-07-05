@@ -3,6 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
+        //MisakaF
+        "misakaf.org",
         // Binance
         "appsflayer.com",
         "binance.cloud",
