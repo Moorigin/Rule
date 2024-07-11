@@ -305,13 +305,6 @@
         "1drv",
         "onedrive",
         "skydrive"
-      ],
-      "process_name": [
-        // OneDrive
-        "OneDrive",
-        "OneDriveUpdater",
-        // GoogleDrive
-        "BackupandSync"
       ]
     }
   ]
