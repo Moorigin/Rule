@@ -2,6 +2,9 @@
   "version": 1,
   "rules": [
     {
+      "domain": [
+          "www.googleapis.com"
+        ],
       "domain_suffix": [
         //MisakaF
         "misakaf.org",
@@ -251,7 +254,39 @@
         "xoom.io",
         "xoom.net.cn",
         "xoom.us",
-        "xoomcom.com"
+        "xoomcom.com",
+        // GoogleDrive
+        "DOMAIN,www.googleapis.com",
+        "docs.google.com",
+        "drive.google.com",
+        "googledrive.com",
+        "googleusercontent.com",
+        // OneDrive
+        "1drv.com",
+        "1drv.ms",
+        "livefilestore.com",
+        "oneclient.sfx.ms",
+        "onedrive.co",
+        "onedrive.co.uk",
+        "onedrive.com",
+        "onedrive.eu",
+        "onedrive.live.com",
+        "onedrive.net",
+        "onedrive.org",
+        "photos.live.com",
+        "sharepoint.com",
+        "sharepointonline.com",
+        "skydrive.wns.windows.com",
+        "spoprod-a.akamaihd.net",
+        "storage.live.com",
+        "storage.msn.com",
+        // PikPak
+        "dlandroid.rcv.sandai.net",
+        "hub5idx.v6.shub.sandai.net",
+        "hub5pn.wap.sandai.net",
+        "hub5pnc.sandai.net",
+        "hub5pr.v6.phub.sandai.net",
+        "hubciddata.sandai.net",
         // E-hentai
         "e-hentai.org",
         "ehgt.org",
@@ -263,8 +298,21 @@
         "hentaiverse.org"
       ],
       "domain_keyword": [
-          "paypal"
-        ]
+        "paypal",
+        // PikPak
+        "mypikpak",
+        // OneDrive
+        "1drv",
+        "onedrive",
+        "skydrive"
+      ],
+      "process_name": [
+        // OneDrive
+        "OneDrive",
+        "OneDriveUpdater",
+        // GoogleDrive
+        "BackupandSync"
+      ]
     }
   ]
 }
