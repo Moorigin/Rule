@@ -12,8 +12,8 @@ https://raw.githubusercontent.com/Moorigin/Rule/main/Surge/AI.list
 https://cdn.jsdelivr.net/gh/Moorigin/Rule@main/Surge/AI.list
 ```
 ### Sing-Box  
-在links.txt添加规则集，自动生成 sing-box Source Format。  
-规则集源文件写法eg:  
+- 在links.txt添加规则集，自动生成 sing-box Source Format。  
+- 规则集源文件写法eg:  
 ```
 {
   "tag": "WeChat",
