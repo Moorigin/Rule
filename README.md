@@ -19,7 +19,7 @@ https://cdn.jsdelivr.net/gh/Moorigin/Rule@main/Surge/AI.list
   "tag": "WeChat",
   "type": "remote",
   "format": "source",
-  "url": "https://raw.githubusercontent.com/Moorigin/Rule/main/Sing-Box/wechat.json",
+  "url": "https://raw.githubusercontent.com/Moorigin/Rule/main/Sing-Box/WeChat.json",
   "download_detour": "USA"
 }
 ```
