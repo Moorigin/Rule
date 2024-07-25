@@ -3,7 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
-        // North America Domain
+        // USA & CAN
         "us",
         "ca",
         //MisakaF
@@ -288,6 +288,17 @@
         "hub5pnc.sandai.net",
         "hub5pr.v6.phub.sandai.net",
         "hubciddata.sandai.net",
+        // Picacg
+        "bikaa.xyz",
+        "bikac.xyz",
+        "bikaios.xyz",
+        "manhuabika.com",
+        "picacgp.com",
+        "picacgy.com",
+        "picacn.xyz",
+        "picacomic.com",
+        "picacomic.xyz",
+        "wikawika.xyz",
         // E-hentai
         "e-hentai.org",
         "ehgt.org",
