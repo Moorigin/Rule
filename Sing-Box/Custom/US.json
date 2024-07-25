@@ -287,27 +287,7 @@
         "hub5pn.wap.sandai.net",
         "hub5pnc.sandai.net",
         "hub5pr.v6.phub.sandai.net",
-        "hubciddata.sandai.net",
-        // Picacg
-        "bikaa.xyz",
-        "bikac.xyz",
-        "bikaios.xyz",
-        "manhuabika.com",
-        "picacgp.com",
-        "picacgy.com",
-        "picacn.xyz",
-        "picacomic.com",
-        "picacomic.xyz",
-        "wikawika.xyz",
-        // E-hentai
-        "e-hentai.org",
-        "ehgt.org",
-        "ehtracker.org",
-        "ehwiki.org",
-        "exhentai.org",
-        "hath.network",
-        "hentaiathome.net",
-        "hentaiverse.org"
+        "hubciddata.sandai.net"
       ],
       "domain_keyword": [
         // PayPal
