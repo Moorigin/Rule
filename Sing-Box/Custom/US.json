@@ -3,6 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
+        // North America Domain
+        "us",
+        "ca",
         //MisakaF
         "misakaf.org",
         // Oracle
