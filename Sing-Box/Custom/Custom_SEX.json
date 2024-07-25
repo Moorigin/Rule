@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        // PronHub
+        "phncdn.com",
+        "phprcdn.com",
+        "pornhub.com",
+        "pornhubpremium.com",
+        "pronstore.com",
+        // Xvideos
+        "xvideos-cdn.com",
+        "xvideos.com",
+        // JavDB
+        "javdb.com",
+        "jdbimgs.com",
+        "jdbstatic.com",
+        // Jable
+        "cdnlab.live",
+        "jable.tv",
+        "mushroomtrack.com",
+        // PikPak
+        "dlandroid.rcv.sandai.net",
+        "hub5idx.v6.shub.sandai.net",
+        "hub5pn.wap.sandai.net",
+        "hub5pnc.sandai.net",
+        "hub5pr.v6.phub.sandai.net",
+        "hubciddata.sandai.net",
+        // JMComic
+        "18comic-god.cc",
+        "18comic-god.club",
+        "18comic-god.xyz",
+        "18comic.cc",
+        "18comic.company",
+        "18comic.org",
+        "18comic.vip",
+        "jmcomic.ltd",
+        "jmcomic.me",
+        "jmcomic.mobi",
+        "jmcomic.moe",
+        "jmcomic1.city",
+        "jmcomic1.me",
+        "jmcomic1.mobi",
+        "jmcomic2.moe",
+        // Picacg
+        "bikaa.xyz",
+        "bikac.xyz",
+        "bikaios.xyz",
+        "manhuabika.com",
+        "picacgp.com",
+        "picacgy.com",
+        "picacn.xyz",
+        "picacomic.com",
+        "picacomic.xyz",
+        "wikawika.xyz",
+        // E-hentai
+        "e-hentai.org",
+        "ehgt.org",
+        "ehtracker.org",
+        "ehwiki.org",
+        "exhentai.org",
+        "hath.network",
+        "hentaiathome.net",
+        "hentaiverse.org",
+        // Others
+        "91porn.com",
+        "missav.com",
+        "thisav.com",
+        "hanime1.me",
+        "hanime.tv",
+        "avbebe.com"
+      ]
+    }
+  ]
+}
