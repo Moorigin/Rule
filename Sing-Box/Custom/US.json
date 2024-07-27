@@ -3,7 +3,6 @@
   "rules": [
     {
       "domain_suffix": [
-        // USA & CAN
         "us",
         "ca",
         //MisakaF
@@ -34,6 +33,9 @@
         "oracleinfinity.io",
         "responsys.net",
         "sun.com",
+        // Wise
+        "transferwise.com",
+        "wise.com",
         // PayPal
         "account-paypal.info",
         "account-paypal.net",
