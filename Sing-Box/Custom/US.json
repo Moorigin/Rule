@@ -4,8 +4,9 @@
     {
       "domain_suffix": [
         "us",
-        "ca",
-        //MisakaF
+        // M-Team
+        "m-team.cc",
+        // MisakaF
         "misakaf.org",
         // Oracle
         "a1cbafa5ea9a6480cb8e9ffba46cbad9-466059813.us-west-2.elb.amazonaws.com",
