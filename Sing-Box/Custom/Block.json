@@ -7,7 +7,6 @@
         "szbdyd.com"
       ],
       "domain_regex": [
-        // Bilibili
         "^(?:[^\/]+\.)?mcdn\.[^\/]*bilivideo\.cn$",
         "^(?:[^\/]+\.)?pcdn\.[^\/]*biliapi\.net$"
       ]
