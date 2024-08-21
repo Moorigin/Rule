@@ -8,9 +8,8 @@
       ],
       "domain_regex": [
         // Bilibili
-        "mcdn\\.bilivideo\\.cn",
-        ".*pcdn.*\\.biliapi\\.net",
-        "cn-.*\\.bilivideo\\.com"
+        "^(?:[^\/]+\.)?mcdn\.[^\/]*bilivideo\.cn$",
+        "^(?:[^\/]+\.)?pcdn\.[^\/]*biliapi\.net$"
       ]
     }
   ]
