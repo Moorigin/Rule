@@ -8,9 +8,9 @@
       ],
       "domain_regex": [
         // Bilibili
-        "^mcdn\.bilivideo\.cn$",
-        "^.*pcdn.*\.biliapi\.net$",
-        "^cn-.*\.bilivideo\.com$"
+        "^https?:\/\/mcdn\.bilivideo\.cn",
+        "^https?:\/\/[^\/]*pcdn[^\/]*\.biliapi\.net",
+        "^https?:\/\/[^\/]*szbdyd\.com"
       ]
     }
   ]
