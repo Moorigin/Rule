@@ -5,6 +5,12 @@
       "domain_suffix": [
         // Bilibili
         "szbdyd.com"
+      ],
+      "domain_regex": [
+        // Bilibili
+        "^https?:\/\/mcdn\.bilivideo\.cn\/.*",
+        "^https?:\/\/.*pcdn.*\.biliapi\.net\/.*",
+        "#^https?:\/\/cn-.*\.bilivideo\.com\/.*"
       ]
     }
   ]
