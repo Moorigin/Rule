@@ -5,12 +5,11 @@
       "domain_suffix": [
         // Bilibili
         "szbdyd.com",
-        "upos-sz-mirroraliov.bilivideo.com",
-        "upos-tf-all-hw.bilivideo.com"
+        "upos-sz-mirroraliov.bilivideo.com"
       ],
       "domain_regex": [
-        "^(?:[^\\/]+\\.)?mcdn\\.[^\\/]*bilivideo\\.cn$",
-        "^(?:[^\\/]+\\.)?pcdn\\.[^\\/]*biliapi\\.net$"
+        "^(?:[^\\/]+\\.)?pcdn\\.[^\\/]*biliapi\\.net$",
+        "^(?:[^\\/]+\\.)?kodo\\.[^\\/]*bilivideo\\.com$"
       ]
     }
   ]
