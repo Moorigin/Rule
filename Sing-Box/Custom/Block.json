@@ -4,7 +4,8 @@
     {
       "domain_suffix": [
         // Bilibili
-        "szbdyd.com"
+        "szbdyd.com",
+        "upos-sz-mirroraliov.bilivideo.com"
       ],
       "domain_regex": [
         "^(?:[^\\/]+\\.)?mcdn\\.[^\\/]*bilivideo\\.cn$",
