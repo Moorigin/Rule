@@ -7,8 +7,8 @@
         "szbdyd.com"
       ],
       "domain_regex": [
-        "^(?:[^\/]+\.)?mcdn\.[^\/]*bilivideo\.cn$",
-        "^(?:[^\/]+\.)?pcdn\.[^\/]*biliapi\.net$"
+        "^(?:[^\\/]+\\.)?mcdn\\.[^\\/]*bilivideo\\.cn$",
+        "^(?:[^\\/]+\\.)?pcdn\\.[^\\/]*biliapi\\.net$"
       ]
     }
   ]
