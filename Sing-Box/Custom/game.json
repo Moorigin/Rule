@@ -2,14 +2,24 @@
   "version": 1,
   "rules": [
     {
+      "domain": [
+        // Battle
+        "blizzard.nefficient.co.kr",
+        "blzddist1-a.akamaihd.net",
+        "blzddistkr1-a.akamaihd.net",
+        "bnetproduct-a.akamaihd.net",
+        "cdn.blz-contentstack.com"
+      ],
       "domain_suffix": [
+        // Battle
+        "battle.net",
+        "battlenet.com.cn",
+        "blizzard.com",
         // Supercell
         "supercell.com",
         "brawlstars.com",
         "brawlstarsgame.com"
-      ]
-    },
-    {
+      ],
       "ip_cidr": [
         // Supercell
         "13.210.25.233/32",
