@@ -4,6 +4,10 @@
     {
       "domain_suffix": [
         "cn",
+        // Wise
+        "transferwise.com",
+        "wise.com",
+        // AIGC
         "aliyuncs.com",
         "deepseek.com",
         "lingyiwanwu.com"
