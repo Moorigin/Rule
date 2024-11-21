@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "us",
+        // Emby
+        "vban.xyz",
+        "misakaf.org",
+        // LINUX DO
+        "linux.do",
+        // M-Team
+        "m-team.cc",
+        // Kraken
+        "kraken.com",
+        // Anna's Archive
+        "annas-archive.org",
+        // Google
+        "learning.google.com",
+        // PikPak
+        "dlandroid.rcv.sandai.net",
+        "hub5idx.v6.shub.sandai.net",
+        "hub5pn.wap.sandai.net",
+        "hub5pnc.sandai.net",
+        "hub5pr.v6.phub.sandai.net",
+        "hubciddata.sandai.net"
+      ],
+      "domain_keyword": [
+        // PikPak
+        "mypikpak"
+      ]
+    }
+  ]
+}
