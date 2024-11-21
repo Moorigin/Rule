@@ -8,7 +8,7 @@
   "tag": "WeChat",
   "type": "remote",
   "format": "source",
-  "url": "https://raw.githubusercontent.com/Moorigin/Rule/main/Sing-Box/WeChat.json",
+  "url": "https://raw.githubusercontent.com/Moorigin/Rule/main/Sing-Box/Rule/Claude.json",
   "download_detour": "USA"
 }
 ```
