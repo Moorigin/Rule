@@ -15,7 +15,7 @@
 ##### AdGuard DNS Filer规则集源文件写法:  
 ```
 {
-  "tag": "AdServers",
+  "tag": "AdGuardSDNSFilter",
   "type": "remote",
   "format": "binary",
   "url": "https://raw.githubusercontent.com/Moorigin/Rule/main/Sing-Box/Rule/AdGuardSDNSFilter.srs",
