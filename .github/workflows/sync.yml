@@ -30,8 +30,8 @@ jobs:
         pip install pandas requests pyyaml
     - name: Download content
       run: |
-        URL="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/adservers.txt"
-        OUTPUT_FILE="./Sing-Box/Rule/AdServers.txt"
+        URL="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+        OUTPUT_FILE="./Sing-Box/Rule/AdGuardSDNSFilter.txt"
 
         curl -L $URL -o $OUTPUT_FILE
 
@@ -43,7 +43,7 @@ jobs:
         fi
     - name: Convert AdGuard DNS Filter to sing-box rule set
       run: |
-        sing-box rule-set convert --type adguard --output ./Sing-Box/Rule/AdServers.srs ./Sing-Box/Rule/AdServers.txt
+        sing-box rule-set convert --type adguard --output ./Sing-Box/Rule/AdGuardSDNSFilter.srs ./Sing-Box/Rule/AdGuardSDNSFilter.txt
     - name: Run script
       run: python ../main.py
       working-directory: ./Sing-Box
