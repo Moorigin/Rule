@@ -18,7 +18,7 @@
   "tag": "AdServers",
   "type": "remote",
   "format": "binary",
-  "url": "https://raw.githubusercontent.com/Moorigin/Rule/main/Sing-Box/Rule/AdServers.json",
+  "url": "https://raw.githubusercontent.com/Moorigin/Rule/main/Sing-Box/Rule/AdGuardSDNSFilter.srs",
   "download_detour": "USA"
 }
 ```  
