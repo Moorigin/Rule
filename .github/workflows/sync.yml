@@ -28,22 +28,33 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pandas requests pyyaml
-    - name: Download content
+    - name: Download and Convert Rules
       run: |
-        URL="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
-        OUTPUT_FILE="./Sing-Box/Rule/AdGuardSDNSFilter.txt"
+        # 定义规则列表
+        declare -A rules=(
+          ["AdGuardSDNSFilter"]="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+          ["halflife"]="https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad.txt"
+          ["anti-AD"]="https://anti-ad.net/easylist.txt"
+          # 在这里添加更多规则
+        )
 
-        curl -L $URL -o $OUTPUT_FILE
-
-        if [ -f "$OUTPUT_FILE" ]; then
-          echo "Download successful: $OUTPUT_FILE"
-        else
-          echo "Download failed."
-          exit 1
-        fi
-    - name: Convert AdGuard DNS Filter to sing-box rule set
-      run: |
-        sing-box rule-set convert --type adguard --output ./Sing-Box/Rule/AdGuardSDNSFilter.srs ./Sing-Box/Rule/AdGuardSDNSFilter.txt
+        # 循环下载和转换每个规则
+        for rule_name in "${!rules[@]}"; do
+          URL="${rules[$rule_name]}"
+          OUTPUT_FILE="./Sing-Box/Rule/${rule_name}.txt"
+          
+          echo "Downloading ${rule_name}..."
+          curl -L "$URL" -o "$OUTPUT_FILE"
+          
+          if [ -f "$OUTPUT_FILE" ]; then
+            echo "Download successful: $OUTPUT_FILE"
+            echo "Converting ${rule_name} to sing-box rule set..."
+            sing-box rule-set convert --type adguard --output "./Sing-Box/Rule/${rule_name}.srs" "$OUTPUT_FILE"
+          else
+            echo "Download failed for ${rule_name}"
+            exit 1
+          fi
+        done
     - name: Run script
       run: python ../main.py
       working-directory: ./Sing-Box
