@@ -29,49 +29,49 @@ jobs:
         python -m pip install --upgrade pip
         pip install pandas requests pyyaml
     - name: Download and Convert Rules
-  run: |
-    # 创建必要的目录
-    mkdir -p "./Sing-Box/Rule/AdGuard"
-    
-    # 定义规则列表
-    declare -A rules=(
-      ["AdGuardSDNSFilter"]="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
-      ["HalfLife"]="https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad.txt"
-      ["anti-AD"]="https://anti-ad.net/easylist.txt"
-    )
-    
-    # 循环下载和转换每个规则
-    for rule_name in "${!rules[@]}"; do
-      URL="${rules[$rule_name]}"
-      OUTPUT_FILE="./Sing-Box/Rule/AdGuard/${rule_name}.txt"
-      
-      echo "Downloading ${rule_name}..."
-      curl -L "$URL" -o "$OUTPUT_FILE"
-      
-      if [ -f "$OUTPUT_FILE" ]; then
-        echo "Download successful: $OUTPUT_FILE"
-        echo "Converting ${rule_name} to sing-box rule set..."
+      run: |
+        # 创建必要的目录
+        mkdir -p "./Sing-Box/Rule/AdGuard"
         
-        # 添加错误检查和详细输出
-        if ! sing-box rule-set convert --type adguard --output "./Sing-Box/Rule/AdGuard/${rule_name}.srs" "$OUTPUT_FILE" 2>&1; then
-          echo "Conversion failed for ${rule_name}"
-          echo "Content of ${OUTPUT_FILE}:"
-          head -n 5 "$OUTPUT_FILE"
-          exit 1
-        fi
+        # 定义规则列表
+        declare -A rules=(
+          ["AdGuardSDNSFilter"]="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
+          ["HalfLife"]="https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad.txt"
+          ["anti-AD"]="https://anti-ad.net/easylist.txt"
+        )
         
-        # 检查转换后的文件是否存在
-        if [ ! -f "./Sing-Box/Rule/AdGuard/${rule_name}.srs" ]; then
-          echo "Conversion failed: Output file not created for ${rule_name}"
-          exit 1
-        fi
-        
-        echo "Successfully converted ${rule_name}"
-      else
-        echo "Download failed for ${rule_name}"
-        exit 1
-      fi
-    done
+        # 循环下载和转换每个规则
+        for rule_name in "${!rules[@]}"; do
+          URL="${rules[$rule_name]}"
+          OUTPUT_FILE="./Sing-Box/Rule/AdGuard/${rule_name}.txt"
+          
+          echo "Downloading ${rule_name}..."
+          curl -L "$URL" -o "$OUTPUT_FILE"
+          
+          if [ -f "$OUTPUT_FILE" ]; then
+            echo "Download successful: $OUTPUT_FILE"
+            echo "Converting ${rule_name} to sing-box rule set..."
+            
+            # 添加错误检查和详细输出
+            if ! sing-box rule-set convert --type adguard --output "./Sing-Box/Rule/AdGuard/${rule_name}.srs" "$OUTPUT_FILE" 2>&1; then
+              echo "Conversion failed for ${rule_name}"
+              echo "Content of ${OUTPUT_FILE}:"
+              head -n 5 "$OUTPUT_FILE"
+              exit 1
+            fi
+            
+            # 检查转换后的文件是否存在
+            if [ ! -f "./Sing-Box/Rule/AdGuard/${rule_name}.srs" ]; then
+              echo "Conversion failed: Output file not created for ${rule_name}"
+              exit 1
+            fi
+            
+            echo "Successfully converted ${rule_name}"
+          else
+            echo "Download failed for ${rule_name}"
+            exit 1
+          fi
+        done
     - name: Run script
       run: python ../main.py
       working-directory: ./Sing-Box
