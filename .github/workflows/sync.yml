@@ -37,7 +37,6 @@ jobs:
           ["AdGuardSDNSFilter"]="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
           ["HalfLife"]="https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad.txt"
           ["anti-AD"]="https://anti-ad.net/easylist.txt"
-          ["EasyPrivacy"]="https://easylist-downloads.adblockplus.org/easyprivacy.txt"
           # 在这里添加更多规则
         )
         # 循环下载和转换每个规则
