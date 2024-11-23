@@ -33,7 +33,7 @@ jobs:
         # 定义规则列表
         declare -A rules=(
           ["AdGuardSDNSFilter"]="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
-          ["halflife"]="https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad.txt"
+          ["HalfLife"]="https://cdn.jsdelivr.net/gh/o0HalfLife0o/list@master/ad.txt"
           ["anti-AD"]="https://anti-ad.net/easylist.txt"
           # 在这里添加更多规则
         )
