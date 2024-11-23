@@ -30,6 +30,8 @@ jobs:
         pip install pandas requests pyyaml
     - name: Download and Convert Rules
       run: |
+        # 创建必要的目录
+        mkdir -p "./Sing-Box/Rule/AdGuard"
         # 定义规则列表
         declare -A rules=(
           ["AdGuardSDNSFilter"]="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
@@ -38,7 +40,6 @@ jobs:
           ["EasyPrivacy"]="https://easylist-downloads.adblockplus.org/easyprivacy.txt"
           # 在这里添加更多规则
         )
-
         # 循环下载和转换每个规则
         for rule_name in "${!rules[@]}"; do
           URL="${rules[$rule_name]}"
