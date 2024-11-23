@@ -31,7 +31,7 @@ jobs:
     - name: Download and Convert Rules
       run: |
         # 创建必要的目录
-        mkdir -p "./Sing-Box/Rule/AdGuard"
+        mkdir -p "./Sing-Box/AdGuard"
         # 定义规则列表
         declare -A rules=(
           ["AdGuardSDNSFilter"]="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
@@ -42,7 +42,7 @@ jobs:
         # 循环下载和转换每个规则
         for rule_name in "${!rules[@]}"; do
           URL="${rules[$rule_name]}"
-          OUTPUT_FILE="./Sing-Box/Rule/AdGuard/${rule_name}.txt"
+          OUTPUT_FILE="./Sing-Box/AdGuard/${rule_name}.txt"
           
           echo "Downloading ${rule_name}..."
           curl -L "$URL" -o "$OUTPUT_FILE"
@@ -50,7 +50,7 @@ jobs:
           if [ -f "$OUTPUT_FILE" ]; then
             echo "Download successful: $OUTPUT_FILE"
             echo "Converting ${rule_name} to sing-box rule set..."
-            sing-box rule-set convert --type adguard --output "./Sing-Box/Rule/AdGuard/${rule_name}.srs" "$OUTPUT_FILE"
+            sing-box rule-set convert --type adguard --output "./Sing-Box/AdGuard/${rule_name}.srs" "$OUTPUT_FILE"
           else
             echo "Download failed for ${rule_name}"
             exit 1
