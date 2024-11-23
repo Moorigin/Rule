@@ -28,29 +28,28 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pandas requests pyyaml
-    - name: Download and Convert Rules
+    - name: Download and Convert AdGuard Files
       run: |
-        # 创建必要的目录
-        mkdir -p "./Sing-Box/Rule/AdGuard"
-        # 定义规则列表
-        declare -A rules=(
+        # 定义要下载的文件列表
+        declare -A FILES=(
           ["AdGuardSDNSFilter"]="https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt"
-          # 在这里添加更多规则
+          ["AdGuardMobileFilter"]="https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt"
+          # 添加更多文件...
         )
-        # 循环下载和转换每个规则
-        for rule_name in "${!rules[@]}"; do
-          URL="${rules[$rule_name]}"
-          OUTPUT_FILE="./Sing-Box/Rule/AdGuard/${rule_name}.txt"
+
+        # 下载和转换每个文件
+        for name in "${!FILES[@]}"; do
+          URL="${FILES[$name]}"
+          OUTPUT_FILE="./Sing-Box/Rule/${name}.txt"
           
-          echo "Downloading ${rule_name}..."
+          echo "Downloading $name from $URL"
           curl -L "$URL" -o "$OUTPUT_FILE"
           
           if [ -f "$OUTPUT_FILE" ]; then
-            echo "Download successful: $OUTPUT_FILE"
-            echo "Converting ${rule_name} to sing-box rule set..."
-            sing-box rule-set convert --type adguard --output "./Sing-Box/Rule/AdGuard/${rule_name}.srs" "$OUTPUT_FILE"
+            echo "Converting $name to SRS format"
+            sing-box rule-set convert --type adguard --output "./Sing-Box/Rule/${name}.srs" "$OUTPUT_FILE"
           else
-            echo "Download failed for ${rule_name}"
+            echo "Download failed for $name"
             exit 1
           fi
         done
