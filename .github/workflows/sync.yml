@@ -63,22 +63,28 @@ jobs:
               filename=$(basename "$json_file" .json)
               echo "Compiling $filename.json to SRS format"
               sing-box rule-set compile --output "./Sing-Box/Custom/${filename}.srs" "$json_file"
+              echo "Checking compiled file:"
+              ls -la "./Sing-Box/Custom/${filename}.srs"
             fi
           done
         else
           echo "Custom directory not found"
         fi
+    - name: List files in Custom directory
+      run: |
+        echo "Contents of Custom directory:"
+        ls -la ./Sing-Box/Custom/
     - name: Run script
       run: python ../main.py
       working-directory: ./Sing-Box
-    - name: Commit and push config.json
+    - name: Commit and push changes
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-        git add ./Sing-Box/Rule/*.json
-        git add ./Sing-Box/Rule/*.srs
-        git add ./Sing-Box/Rule/*.txt
-
+        
+        # 添加所有更改的文件
+        git add -A
+        
         # 检查是否有文件被修改
         if git diff --staged --quiet; then
           echo "No changes to commit"
