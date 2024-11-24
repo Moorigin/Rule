@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-11-23T12:02:26.758Z
+! Last modified: 2024-11-24T12:01:24.493Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.29
 !
@@ -5279,6 +5279,7 @@ vkcdnservice.appspot.com^
 ||besteasyclick.com^
 ||bestevermotorie.com^
 ||bestexp1.com^
+||bestfuckapps.com^
 ||bestfunnyads.com^
 ||bestladymeet.life^
 ||bestloans.tips^
@@ -10436,6 +10437,7 @@ vkcdnservice.appspot.com^
 ||exposureawelessawelessladle.com^
 ||expressalike.com^
 ||expressingblossomjudicious.com^
+||expressmealdelivery.shop^
 ||expressproducer.com^
 ||exptlgooney.com^
 ||expulsionfluffysea.com^
@@ -29286,6 +29288,7 @@ vkcdnservice.appspot.com^
 ||yaxgszv.com^
 ||yazuda.xyz^
 ||ybhyziittfg.com^
+||ybnksajy.com^
 ||ybriifs.com^
 ||ybs2ffs7v.com^
 ||ybtkzjm.com^
@@ -29575,6 +29578,7 @@ vkcdnservice.appspot.com^
 ||zavoxlquwb.com^
 ||zaxonoax.com^
 ||zcaadfl.com^
+||zcaappcthktx.com^
 ||zchtpzu.com^
 ||zcode12.me^
 ||zcode7.me^
@@ -46604,8 +46608,8 @@ inapps.appsflyersdk.com^
 # A hosts file that aims to get rid of ads, tracking, scams & badware on (mostly) Swedish websites
 # ----
 # title:          Frellwit's Swedish Hosts File
-# last updated:   2024-11-19 05:38:21 CET
-# entries:        1091
+# last updated:   2024-11-24 05:11:58 CET
+# entries:        1092
 # format:         hosts (hosts -- in hosts file format)
 # homepage:       https://github.com/lassekongo83/Frellwits-filter-lists/
 ||1terms.com^
@@ -46982,6 +46986,7 @@ inapps.appsflyersdk.com^
 ||stats.ehandel.se^
 ||stats.helsingborg.se^
 ||stats.jibber.social^
+||stats.med.lu.se^
 ||stats.playoncenter.com^
 ||stats.poddtoppen.se^
 ||stats.proff.se^
@@ -47581,8 +47586,8 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 16 Nov 2024 16:21 UTC+7
-! Version: 2411161621
+! Last modified: 24 Nov 2024 11:43 UTC+7
+! Version: 2411241143
 ! Blocked: 930 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -48452,9 +48457,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN Threat
 ! Description: Only include threat domains
-! Last modified: 20 Nov 2024 16:26 UTC+7
-! Version: 2411201626
-! Blocked: 4,692 rules
+! Last modified: 24 Nov 2024 11:45 UTC+7
+! Version: 2411241145
+! Blocked: 4,693 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -50889,6 +50894,7 @@ inapps.appsflyersdk.com^
 ||sacchaeleduk.com^
 ||sacombank.net.vn^
 ||sacombank.vn-ne.top^
+||sacombankvn.com^
 ||sadm26.com^
 ||saifcrack.com^
 ||salu.gq^
@@ -53028,8 +53034,16 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||lipheak.com^
+||xcwdcynb.icu^
+||wweizae.top^
+||az5i.icu^
+||yoqqiev.top^
+||fiezaits.com^
 ||xevaix.com^
 ||sweizab.top^
+||eweizaw.top^
+||dt0j.icu^
 ||oqipegjz.icu^
 ||izuts.com^
 ||jweizaa.top^
