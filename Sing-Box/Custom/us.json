@@ -2,6 +2,12 @@
   "version": 2,
   "rules": [
     {
+      "domain": [
+        // Config
+        "conf.zdcy.org"
+      ]
+    },
+    {
       "domain_suffix": [
         "us",
         // Emby
