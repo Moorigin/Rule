@@ -62,7 +62,7 @@ jobs:
             if [ -f "$json_file" ]; then
               filename=$(basename "$json_file" .json)
               echo "Converting $filename.json to SRS format"
-              sing-box rule-set convert --type json --output "./Sing-Box/Custom/${filename}.srs" "$json_file"
+              sing-box rule-set compile --output "./Sing-Box/Custom/${filename}.srs" "$json_file"
             fi
           done
         else
