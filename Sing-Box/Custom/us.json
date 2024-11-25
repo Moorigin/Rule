@@ -4,7 +4,8 @@
     {
       "domain": [
         // Config
-        "conf.zdcy.org"
+        "conf.zdcy.org",
+        "conf.moorigin.workers.dev"
       ]
     },
     {
