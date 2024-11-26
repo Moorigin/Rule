@@ -3,6 +3,8 @@
   "rules": [
     {
       "domain": [
+        // Config
+        "sb.zdcy.org",
         // GameDownload
         "assets1.xboxlive.cn",
         "assets2.xboxlive.cn",
