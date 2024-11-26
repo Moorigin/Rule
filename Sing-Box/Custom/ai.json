@@ -28,7 +28,6 @@
         // Anthropic
         "claude.ai",
         "anthropic.com",
-        "servd-anthropic-website.b-cdn.net",
         // Gemini
         "apis.google.com",
         "bard.google.com",
