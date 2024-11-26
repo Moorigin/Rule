@@ -2,14 +2,21 @@
   "version": 2,
   "rules": [
     {
-      "domain_suffix": [
-        "jp",
+      "domain": [
         // Abema
         "abematv.akamaized.net",
         "ds-linear-abematv.akamaized.net",
         "ds-vod-abematv.akamaized.net",
         "linear-abematv.akamaized.net",
         "vod-abematv.akamaized.net",
+        // Hulu
+        "live-mediashield-ava-hulustream-com.akamaized.net"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "jp",
+        // Abema
         "abema-tv.com",
         "abema.io",
         "abema.tv",
@@ -45,7 +52,6 @@
         "tenco.cc",
         "wheel-soft.com",
         // Hulu
-        "live-mediashield-ava-hulustream-com.akamaized.net",
         "112263.com",
         "assetshuluimcom-a.akamaihd.net",
         "callhulu.com",
@@ -103,9 +109,10 @@
         "thehulubraintrust.com",
         "wwwhuluplus.com",
         "yb.uncn.jp"
-      ],
+      ]
+    },
+    {
       "ip_cidr": [
-        // DMM
         "125.6.189.7/32",
         "203.104.209.7/32"
       ]
