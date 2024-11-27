@@ -26,6 +26,16 @@
     },
     {
       "domain_suffix": [
+        // Talkatone
+        "ads.inmobi.com",
+        "tappx.com",
+        "criteo.com",
+        "pubmatic.com",
+        "smaato.net",
+        "amazon-adsystem.com",
+        "adsappier.com",
+        "appier.net",
+        "appiersig.com",
         // HttpDNS
         "httpdns.baidu.com",
         "httpdns.baidubce.com",
@@ -33,6 +43,12 @@
         // Bilibili
         "szbdyd.com",
         "upos-sz-mirroraliov.bilivideo.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        // Talkatone
+        "googleads"
       ]
     },
     {
