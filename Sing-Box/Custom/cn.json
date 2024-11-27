@@ -37,7 +37,9 @@
         "lingyiwanwu.com",
         // GameDownload
         "pdl.wow.battlenet.com.cn"
-      ],
+      ]
+    },
+    {
       "domain_keyword": [
         // BOCHK
         "bochk"
