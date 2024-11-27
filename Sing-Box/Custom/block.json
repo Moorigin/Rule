@@ -26,6 +26,12 @@
     },
     {
       "domain_suffix": [
+        // Bilibili
+        "szbdyd.com",
+        // HttpDNS
+        "httpdns.baidu.com",
+        "httpdns.baidubce.com",
+        "httpsdns.baidu.com",
         // Talkatone
         "ads.inmobi.com",
         "tappx.com",
@@ -35,14 +41,7 @@
         "amazon-adsystem.com",
         "adsappier.com",
         "appier.net",
-        "appiersig.com",
-        // HttpDNS
-        "httpdns.baidu.com",
-        "httpdns.baidubce.com",
-        "httpsdns.baidu.com",
-        // Bilibili
-        "szbdyd.com",
-        "upos-sz-mirroraliov.bilivideo.com"
+        "appiersig.com"
       ]
     },
     {
@@ -53,8 +52,6 @@
     },
     {
       "ip_cidr": [
-        // Telegram
-        "95.161.76.100/31",
         // HttpDNS
         "101.124.19.122/32",
         "101.91.140.124/32",
@@ -93,7 +90,9 @@
         "47.100.123.169/32",
         "47.101.175.206/32",
         "59.111.239.61/32",
-        "59.111.239.62/32"
+        "59.111.239.62/32",
+        // Telegram
+        "95.161.76.100/31"
       ]
     }
   ]
