@@ -61,7 +61,9 @@
         "sentry.io",
         "stripe.com",
         "turn.livekit.cloud"
-      ],
+      ]
+    },
+    {
       "domain_keyword": [
         // Apple
         "apple-relay",
@@ -73,7 +75,9 @@
         "generativelanguage",
         // OpenAI
         "openai"
-      ],
+      ]
+    },
+    {
       "ip_cidr": [
         // OpenAI
         "24.199.123.28/32",
