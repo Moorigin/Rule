@@ -4,7 +4,6 @@
     {
       "domain": [
         // DMM
-        "d25ifn8wrt1hcl.cloudfront.com",
         "firestore.googleapis.com",
         "firebaselogging-pa.googleapis.com",
         "firebaseremoteconfig.googleapis.com"
