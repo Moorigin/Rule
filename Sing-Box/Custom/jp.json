@@ -2,14 +2,6 @@
   "version": 2,
   "rules": [
     {
-      "domain": [
-        // DMM
-        "firestore.googleapis.com",
-        "firebaselogging-pa.googleapis.com",
-        "firebaseremoteconfig.googleapis.com"
-      ]
-    },
-    {
       "domain_suffix": [
         "jp",
         // DMM
@@ -30,10 +22,7 @@
         "minori.ph",
         "navismithapis-cdn.com",
         "tenco.cc",
-        "wheel-soft.com",
-        "app-analytics-services.com",
-        "appspot.com",
-        "digicert.com"
+        "wheel-soft.com"
       ]
     },
     {
