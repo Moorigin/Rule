@@ -9,6 +9,8 @@
         "ds-vod-abematv.akamaized.net",
         "linear-abematv.akamaized.net",
         "vod-abematv.akamaized.net",
+        // DMM
+        "d25ifn8wrt1hcl.cloudfront.com",
         // Hulu
         "live-mediashield-ava-hulustream-com.akamaized.net"
       ]
@@ -53,6 +55,7 @@
         "wheel-soft.com",
         "app-analytics-services.com",
         "appspot.com",
+        "digicert.com",
         // Hulu
         "112263.com",
         "assetshuluimcom-a.akamaihd.net",
