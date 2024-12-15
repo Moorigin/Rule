@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2024-12-14T12:01:29.209Z
+! Last modified: 2024-12-15T12:01:22.598Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.29
 !
@@ -5964,6 +5964,7 @@ vkcdnservice.appspot.com^
 ||bryond.com^
 ||bsantycbjnf.com^
 ||bsbrcdna.com^
+||bservr.com^
 ||bsgbd77l.de^
 ||bshrdr.com^
 ||bsilzzc.com^
@@ -12751,7 +12752,6 @@ vkcdnservice.appspot.com^
 ||heavespectaclescoefficient.com^
 ||heavyuniversecandy.com^
 ||hebenonwidegab.top^
-||hebiichigo.com^
 ||hectorfeminine.com^
 ||hectorobedient.com^
 ||hedgehoghugsyou.com^
@@ -28659,7 +28659,6 @@ vkcdnservice.appspot.com^
 ||xuiqxlhqyo.com^
 ||xukpqemfs.com^
 ||xukpresesmr.info^
-||xupalace.org^
 ||xuqza.com^
 ||xvbwvle.com^
 ||xvfyubhqjp.xyz^
@@ -41655,6 +41654,7 @@ inapps.appsflyersdk.com^
 ||gsspcln.jp^
 ||gyro-n.com^
 ||h-cast.jp^
+||hebiichigo.com^
 ||i2i.jp^
 ||iid-network.jp^
 ||iogous.com^
@@ -44884,6 +44884,7 @@ inapps.appsflyersdk.com^
 ! Source: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/JapaneseFilter/sections/adservers.txt
 !
 !
+||jp1media.com^
 ||bra.almado.jp^
 ||adsby.2bet.co.jp^
 ||indexad.net^
@@ -47163,8 +47164,8 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 14 Dec 2024 17:22 UTC+7
-! Version: 2412141722
+! Last modified: 15 Dec 2024 10:21 UTC+7
+! Version: 2412151021
 ! Blocked: 934 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -48038,8 +48039,8 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN Threat
 ! Description: Only include threat domains
-! Last modified: 14 Dec 2024 17:23 UTC+7
-! Version: 2412141723
+! Last modified: 15 Dec 2024 10:22 UTC+7
+! Version: 2412151022
 ! Blocked: 4.689 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -52617,6 +52618,15 @@ inapps.appsflyersdk.com^
 ||qm2.icu^
 ||itimiyo.top^
 ||vegaingi.com^
+||3lo.icu^
+||jtimiya.top^
+||aigfednd.icu^
+||chonaesor.com^
+||warped-bus.com^
+||ktimiyd.top^
+||a5t.icu^
+||xpicj0.icu^
+||siconoi.com^
 ||owsrgljb.icu^
 ||ziqniduy.com^
 ||dddstew6cw8.fun^
