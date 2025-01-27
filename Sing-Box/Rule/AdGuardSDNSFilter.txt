@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2025-01-26T12:01:31.024Z
+! Last modified: 2025-01-27T12:01:38.061Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.29
 !
@@ -33050,6 +33050,8 @@ vkcdnservice.appspot.com^
 ||startup.mobile.yandex.net^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||r0.mail.ru^
+||r0.mradx.net^
 ||serveraddr.service.kugou.com^
 ||d.kugou.com^
 ||nbcollect.kugou.com^
@@ -40384,6 +40386,7 @@ inapps.appsflyersdk.com^
 !
 ! NOTE: Regular rules
 !
+||datacollector-drru.dt.dbankcloud.ru^
 ||ulog*.kwai-pro.com^
 ||spider-tracker.xiaohongshu.com^
 ||tp2p.kg.qq.com^
@@ -41649,7 +41652,6 @@ inapps.appsflyersdk.com^
 ||statscollector-1.agora.io^
 ||statsig.anthropic.com^
 ||statt-collect.herokuapp.com^
-||stk.px-cloud.net^
 ||stream-log.dditscdn.com^
 ||streams.cablecar.sph.com.sg^
 ||sunlightmetrics.b-cdn.net^
@@ -46752,8 +46754,8 @@ inapps.appsflyersdk.com^
 # A hosts file that aims to get rid of ads, tracking, scams & badware on (mostly) Swedish websites
 # ----
 # title:          Frellwit's Swedish Hosts File
-# last updated:   2025-01-14 05:42:13 CET
-# entries:        1103
+# last updated:   2025-01-27 05:27:43 CET
+# entries:        1104
 # format:         hosts (hosts -- in hosts file format)
 # homepage:       https://github.com/lassekongo83/Frellwits-filter-lists/
 ||1terms.com^
@@ -53186,6 +53188,13 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||xxsmad5.com^
+||hostolhg.com^
+||4zn.fun^
+||rajxjj.icu^
+||as01271kkp.xyz^
+||veilengh.com^
+||fcbdpock.icu^
 ||qaemphaels.com^
 ||vhrhnh.icu^
 ||7mk.fun^
@@ -53197,6 +53206,7 @@ inapps.appsflyersdk.com^
 ||dklnxtcj.icu^
 ||h3d.fun^
 ||naettarq.com^
+||8sh.fun^
 ||01240sop.xyz^
 ||01231sop.xyz^
 ||kruraits.com^
