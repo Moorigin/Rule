@@ -3,14 +3,42 @@
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
 # - Anna's Archive
+# - E-Hentai
+# - Hanime1
 # - Kraken
 # - M-Team
+# - OnlyFans
+# - Picacg
 ########################################
 # - Anna's Archive
 DOMAIN-SUFFIX.annas-archive.org
+# - Hanime1
+DOMAIN-SUFFIX,hanime1.me
+# - E-Hentai
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,ehgt.org
+DOMAIN-SUFFIX,ehtracker.org
+DOMAIN-SUFFIX,ehwiki.org
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,hentaiathome.net
+DOMAIN-SUFFIX,hentaiverse.org
 # - Kraken
 DOMIAN-SUFFIX,kraken.com
 # - M-Team
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,m-team.io
+# - OnlyFans
+DOMAIN-SUFFIX,onlyfans.com
+# - Picacg
+DOMAIN-SUFFIX,bikaa.xyz
+DOMAIN-SUFFIX,bikac.xyz
+DOMAIN-SUFFIX,bikaios.xyz
+DOMAIN-SUFFIX,manhuabika.com
+DOMAIN-SUFFIX,picacgp.com
+DOMAIN-SUFFIX,picacgy.com
+DOMAIN-SUFFIX,picacn.xyz
+DOMAIN-SUFFIX,picacomic.com
+DOMAIN-SUFFIX,picacomic.xyz
+DOMAIN-SUFFIX,wikawika.xyz
 ################# END ###################
