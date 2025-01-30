@@ -11,7 +11,7 @@
 # - Picacg
 ########################################
 # - Anna's Archive
-DOMAIN-SUFFIX.annas-archive.org
+DOMAIN-SUFFIX,annas-archive.org
 # - Hanime1
 DOMAIN-SUFFIX,hanime1.me
 # - E-Hentai
