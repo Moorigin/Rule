@@ -2,13 +2,10 @@
 # LANIAKEA Ruleset - AI Service
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
-# - Cloudflare Gateway
 # - Claude
 # - Gemini
 # - OpenAI
 ########################################
-# - Cloudflare Gateway
-DOMAIN-SUFFIX,ai.cloudflare.com
 # - Anthropic
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
