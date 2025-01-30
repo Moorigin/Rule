@@ -1,0 +1,16 @@
+########################################
+# LANIAKEA Ruleset - US Service
+# GitHub: https://github.com/ZCXYHQ/Rule
+#
+# - Anna's Archive
+# - Kraken
+# - M-Team
+########################################
+# - Anna's Archive
+DOMAIN-SUFFIX.annas-archive.org
+# - Kraken
+DOMIAN-SUFFIX,kraken.com
+# - M-Team
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,m-team.io
+################# END ###################
