@@ -204,8 +204,8 @@ DOMAIN,tlu.dl.delivery.mp.microsoft.com
 DOMAIN,trts.baishancdnx.cn
 DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
 DOMAIN,xz.pphimalayanrt.com
-# - Supercell
 DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn
+# - Supercell
 DOMAIN-SUFFIX,brawlstars.com
 DOMAIN-SUFFIX,brawlstarsgame.com
 IP-CIDR,13.210.25.233/32
