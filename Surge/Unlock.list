@@ -1,127 +1,64 @@
-#########################################
+########################################
 # LANIAKEA Ruleset - Unlock
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
-# - [JP]
-# - Abema
-# - DMM
-# - Niconico
-#
-# - [Overlap]
-# - HBO
-#########################################
-# - Abema
-DOMAIN,abematv.akamaized.net
-DOMAIN,ds-linear-abematv.akamaized.net
-DOMAIN,ds-vod-abematv.akamaized.net
-DOMAIN,linear-abematv.akamaized.net
-DOMAIN,vod-abematv.akamaized.net
-DOMAIN-SUFFIX,abema-tv.com
-DOMAIN-SUFFIX,abema.io
-DOMAIN-SUFFIX,abema.tv
-DOMAIN-SUFFIX,adx.promo
-DOMAIN-SUFFIX,ameba.jp
-DOMAIN-SUFFIX,amebame.com
-DOMAIN-SUFFIX,amebaownd.com
-DOMAIN-SUFFIX,amebaowndme.com
-DOMAIN-SUFFIX,ameblo.jp
-DOMAIN-SUFFIX,bucketeer.jp
-DOMAIN-SUFFIX,dokusho-ojikan.jp
-DOMAIN-SUFFIX,hayabusa.dev
-DOMAIN-SUFFIX,hayabusa.io
-DOMAIN-SUFFIX,hayabusa.media
-DOMAIN-SUFFIX,winticket.jp
-# - DMM
-DOMAIN-SUFFIX,akabeesoft2.com
-DOMAIN-SUFFIX,akabeesoft3.com
-DOMAIN-SUFFIX,akatsukiworks.com
-DOMAIN-SUFFIX,alicesoft.com
-DOMAIN-SUFFIX,api-p.videomarket.jp
-DOMAIN-SUFFIX,bluekai.com
-DOMAIN-SUFFIX,cosmiccute.com
-DOMAIN-SUFFIX,ddo.jp
-DOMAIN-SUFFIX,dmm-extension.com
-DOMAIN-SUFFIX,dmm.co.jp
-DOMAIN-SUFFIX,dmm.com
-DOMAIN-SUFFIX,dmm.hk
-DOMAIN-SUFFIX,dmmapis.com
-DOMAIN-SUFFIX,dmmrex.com
-DOMAIN-SUFFIX,fout.jp
-DOMAIN-SUFFIX,gmossp-sp.jp
-DOMAIN-SUFFIX,hibiki-site.com
-DOMAIN-SUFFIX,i-mobile.co.jp
-DOMAIN-SUFFIX,im-apps.net
-DOMAIN-SUFFIX,impact-ad.jp
-DOMAIN-SUFFIX,ladsp.com
-DOMAIN-SUFFIX,microad.co.jp
-DOMAIN-SUFFIX,microad.jp
-DOMAIN-SUFFIX,minori.ph
-DOMAIN-SUFFIX,navismithapis-cdn.com
-DOMAIN-SUFFIX,socdm.com
-DOMAIN-SUFFIX,tenco.cc
-DOMAIN-SUFFIX,wheel-soft.com
-IP-CIDR,125.6.189.7/32
-IP-CIDR,203.104.209.7/32
-# - Niconico
-DOMAIN-SUFFIX,dmc.nico
-DOMAIN-SUFFIX,nicodic.jp
-DOMAIN-SUFFIX,nicomanga.jp
-DOMAIN-SUFFIX,niconico.com
-DOMAIN-SUFFIX,nicoseiga.jp
-DOMAIN-SUFFIX,nicovideo.jp
-DOMAIN-SUFFIX,nimg.jp
-DOMAIN-SUFFIX,simg.jp
-DOMAIN-SUFFIX,socdm.com
-USER-AGENT,Niconico*
-# - HBO
-DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net
-DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net
-DOMAIN-SUFFIX,cinemax.com
-DOMAIN-SUFFIX,dai3fd1oh325y.cloudfront.net
-DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
-DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
-DOMAIN-SUFFIX,forthethrone.com
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbo.com.c.footprint.net
-DOMAIN-SUFFIX,hbo.com.edgesuite.net
-DOMAIN-SUFFIX,hbo.map.fastly.net
-DOMAIN-SUFFIX,hboasia.com
-DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
-DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
-DOMAIN-SUFFIX,hboasia3-i.akamaihd.net
-DOMAIN-SUFFIX,hboasia4-i.akamaihd.net
-DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
-DOMAIN-SUFFIX,hboasialive.akamaized.net
-DOMAIN-SUFFIX,hbogeo.cust.footprint.net
-DOMAIN-SUFFIX,hbogo.co.th
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbogo.eu
-DOMAIN-SUFFIX,hbogoasia.com
-DOMAIN-SUFFIX,hbogoasia.hk
-DOMAIN-SUFFIX,hbogoasia.id
-DOMAIN-SUFFIX,hbogoasia.ph
-DOMAIN-SUFFIX,hbogoasia.sg
-DOMAIN-SUFFIX,hbogoasia.tw
-DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
-DOMAIN-SUFFIX,hbolb.onwardsmg.com
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
-DOMAIN-SUFFIX,hbomaxdash.s.llnwi.net
-DOMAIN-SUFFIX,hbonow.com
-DOMAIN-SUFFIX,hbounify-prod.evergent.com
-DOMAIN-SUFFIX,manifest.prod.boltdns.net
-DOMAIN-SUFFIX,max.com
-DOMAIN-SUFFIX,maxgo.com
-DOMAIN-SUFFIX,now-ashare.com
-DOMAIN-SUFFIX,now-tv.com
-DOMAIN-SUFFIX,now.com
-DOMAIN-SUFFIX,now.com.hk
-DOMAIN-SUFFIX,nowe.com
-DOMAIN-SUFFIX,nowe.hk
-DOMAIN-SUFFIX,players.brightcove.net
-DOMAIN-SUFFIX,warnermediacdn.com
-DOMAIN-SUFFIX,youboranqs01.com
-USER-AGENT,HBO%20NOW*
-USER-AGENT,HBOMAX*
-PROCESS-NAME,com.hbo.hbonow
-################## EOF ##################
+# - Anthropic
+# - Gemini
+# - OpenAI
+########################################
+# - Anthropic
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+# - Gemini
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+# - OpenAI
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,gemini.google.com
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-KEYWORD,openai
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
+################# END ###################
