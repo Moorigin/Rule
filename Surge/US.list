@@ -2,14 +2,10 @@
 # LANIAKEA Ruleset - US Service
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
-# - Anna's Archive
 # - E-Hentai
-# - Kraken
 # - OnlyFans
 # - Picacg
 ########################################
-# - Anna's Archive
-DOMAIN-SUFFIX,annas-archive.org
 # - E-Hentai
 DOMAIN-SUFFIX,e-hentai.org
 DOMAIN-SUFFIX,ehgt.org
@@ -19,8 +15,6 @@ DOMAIN-SUFFIX,exhentai.org
 DOMAIN-SUFFIX,hath.network
 DOMAIN-SUFFIX,hentaiathome.net
 DOMAIN-SUFFIX,hentaiverse.org
-# - Kraken
-DOMAIN-SUFFIX,kraken.com
 # - OnlyFans
 DOMAIN-SUFFIX,onlyfans.com
 # - Picacg
