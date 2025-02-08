@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com.cn
 DOMAIN-SUFFIX,blizzard.com
 # - Supercell
+DOMAIN-SUFFIX,supercell.com
 DOMAIN-SUFFIX,brawlstars.com
 DOMAIN-SUFFIX,brawlstarsgame.com
 IP-CIDR,13.210.25.233/32
