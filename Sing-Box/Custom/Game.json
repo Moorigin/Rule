@@ -35,6 +35,12 @@
         "54.207.168.84/32",
         "54.248.64.192/32"
       ]
+    },
+    {
+      "process_path_regex": [
+        // Steam
+        "\\\\Steam\\\\steamapps\\\\common\\\\.+\\\\.exe$"
+      ]
     }
   ]
 }
