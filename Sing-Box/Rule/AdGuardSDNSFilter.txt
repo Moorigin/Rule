@@ -3,7 +3,7 @@
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social media filter, Tracking Protection filter, Mobile ads filter, EasyList, EasyPrivacy, etc) and simplified specifically to be better compatible with DNS-level ad blocking.
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2025-03-21T12:01:44.868Z
+! Last modified: 2025-03-22T12:01:30.080Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.38
 !
@@ -5793,7 +5793,6 @@
 ||openx.tiesraides.lv^
 ||ctent.povvverz.one^
 ||az-neverblock.aznude.workers.dev^
-||creatives.wetransfer.net^
 ||ad.wrtn.ai^
 ||ip356694986.ahcdn.com^
 ||w.love4porn.com^
@@ -7978,6 +7977,7 @@ vkcdnservice.appspot.com^
 ||aimportfoliosquid.com^
 ||aimukreegee.net^
 ||ainerations.com^
+||ainouzaudre.net^
 ||aintydevelelastic.com^
 ||ainuftou.net^
 ||aiphotomania.com^
@@ -8373,6 +8373,7 @@ vkcdnservice.appspot.com^
 ||andomedia.com^
 ||andomediagroup.com^
 ||android-cleaners.com^
+||androidfilehost.cfd^
 ||androundher.info^
 ||andtheircleanw.com^
 ||anentsyshrug.com^
@@ -10102,6 +10103,7 @@ vkcdnservice.appspot.com^
 ||boneteunfixt.shop^
 ||bongacams7.com^
 ||bonnetgoblet.com^
+||bonnetsgunks.shop^
 ||bonnettaking.com^
 ||bonus-app.net^
 ||bonusmaniac.com^
@@ -11104,6 +11106,7 @@ vkcdnservice.appspot.com^
 ||chaupheebe.net^
 ||chaussew.net^
 ||chautcho.com^
+||chauxuzauy.com^
 ||chbwe.space^
 ||cheap-celebration.pro^
 ||cheapenleaving.com^
@@ -11211,6 +11214,7 @@ vkcdnservice.appspot.com^
 ||chitika.net^
 ||chitsnooked.com^
 ||chivoagrie.net^
+||chivwtusseh.com^
 ||chiwaiwhor.xyz^
 ||chl7rysobc3ol6xla.com^
 ||chloredenpia.shop^
@@ -11313,6 +11317,7 @@ vkcdnservice.appspot.com^
 ||circulationnauseagrandeur.com^
 ||circumstanceshurdleflatter.com^
 ||circusinjunctionarrangement.com^
+||cirliwrigwu.com^
 ||cirrateremord.com^
 ||cirtaisteept.net^
 ||ciscoesfirring.guru^
@@ -13437,6 +13442,7 @@ vkcdnservice.appspot.com^
 ||douchucoam.net^
 ||doufoushig.xyz^
 ||dougale.com^
+||douploadfiles.click^
 ||douthosh.net^
 ||douzvrswnkxzv.icu^
 ||doveexperttactical.com^
@@ -15688,6 +15694,7 @@ vkcdnservice.appspot.com^
 ||gadssystems.com^
 ||gagdungeon.com^
 ||gagebonus.com^
+||gaggedtetrode.com^
 ||gagheroinintact.com^
 ||gaghygienetheir.com^
 ||gagowtvi.com^
@@ -15863,6 +15870,7 @@ vkcdnservice.appspot.com^
 ||gemfowls.com^
 ||geminibugs.com^
 ||gemseeniloksair.net^
+||gemworkbakairi.com^
 ||gen-ref.com^
 ||genbalar.com^
 ||generalizebusinessman.com^
@@ -15910,6 +15918,7 @@ vkcdnservice.appspot.com^
 ||getalltraffic.com^
 ||getarrectlive.com^
 ||getbrowbeatgroup.com^
+||getdownloadfree.cfd^
 ||getgx.net^
 ||getjad.io^
 ||getmagic.moe^
@@ -16354,6 +16363,7 @@ vkcdnservice.appspot.com^
 ||gotohouse1.club^
 ||gotoyahoo.com^
 ||gotrackier.com^
+||gougligloupha.net^
 ||gounodogaptofok.net^
 ||gousouse.com^
 ||goutee.top^
@@ -19804,6 +19814,7 @@ vkcdnservice.appspot.com^
 ||liondolularhenewre.com^
 ||lionessmeltdown.com^
 ||lioniseunpiece.shop^
+||lipasesartal.com^
 ||lipidicchaoush.com^
 ||lipqkoxzy.com^
 ||lipsoowesto.net^
@@ -20222,6 +20233,7 @@ vkcdnservice.appspot.com^
 ||lvodomo.info^
 ||lvojjayaaoqym.top^
 ||lvsnmgg.com^
+||lvtuucmyfpz.com^
 ||lvw7k4d3j.com^
 ||lw2dplgt8.com^
 ||lwfaixefimj.com^
@@ -20867,6 +20879,7 @@ vkcdnservice.appspot.com^
 ||milljeanne.com^
 ||millsurfaces.com^
 ||millustry.top^
+||milseycurly.com^
 ||milteept.xyz^
 ||miltlametta.com^
 ||miluwo.com^
@@ -21637,6 +21650,7 @@ vkcdnservice.appspot.com^
 ||neewouwoafisha.net^
 ||neezausu.net^
 ||nefdcnmvbt.com^
+||nefrvjfkzus.com^
 ||negationomitor.com^
 ||neglectblessing.com^
 ||negligentpatentrefine.com^
@@ -22049,6 +22063,7 @@ vkcdnservice.appspot.com^
 ||npvos.com^
 ||nqmoyjyjngc.com^
 ||nqn7la7.de^
+||nqowmugodougu.com^
 ||nqrkzcd7ixwr.com^
 ||nqslmtuswqdz.com^
 ||nqvi-lnlu.icu^
@@ -23783,6 +23798,7 @@ vkcdnservice.appspot.com^
 ||physidstert.shop^
 ||phywifupta.com^
 ||piaigyyigyghjmi.xyz^
+||pianolamickeys.com^
 ||piaroankenyte.store^
 ||piazzetasses.shop^
 ||picarasgalax.com^
@@ -26212,6 +26228,7 @@ vkcdnservice.appspot.com^
 ||robberysordid.com^
 ||robedonedip.com^
 ||roberehearsal.com^
+||robitoaceeb.net^
 ||robotadserver.com^
 ||roboticourali.com^
 ||robotrenamed.com^
@@ -27082,6 +27099,7 @@ vkcdnservice.appspot.com^
 ||settingtineal.top^
 ||settledapproximatesuit.com^
 ||settledchagrinpass.com^
+||settlementlaying.com^
 ||settrogens.com^
 ||setupad.net^
 ||setworkgoloka.shop^
@@ -28277,6 +28295,7 @@ vkcdnservice.appspot.com^
 ||stolenforensicssausage.com^
 ||stongoapti.net^
 ||stonierteddy.com^
+||stonifylolls.com^
 ||stonkstime.com^
 ||stooboastaud.net^
 ||stoobsugree.net^
@@ -31904,6 +31923,7 @@ vkcdnservice.appspot.com^
 ||woollensimplicity.com^
 ||woollenthawewe.com^
 ||woollouder.com^
+||woopojaizeeno.com^
 ||wootmedia.net^
 ||woovoree.net^
 ||wopsedoaltuwipp.com^
@@ -32149,6 +32169,7 @@ vkcdnservice.appspot.com^
 ||xdiwbc.com^
 ||xdmanage.com^
 ||xdownloadright.com^
+||xdsgbkfkm.com^
 ||xebadu.com^
 ||xegluwate.com^
 ||xeiidlkuxsos.com^
@@ -36968,6 +36989,7 @@ vkcdnservice.appspot.com^
 !
 !
 !
+||ponos.zeronaught.com^
 ||install*.zonastat.com^
 ||tags.pw.adn.cloud^
 ||api-notify.markarch.com^
@@ -37471,6 +37493,7 @@ vkcdnservice.appspot.com^
 ||offer-go.com^
 ||d2ezz24t9nm0vu.cloudfront.net^
 ||px*.mediahills.ru^
+||sdk-v2.conscent.in^
 ||sdk.conscent.in^
 ||tpstelemetry.tencent.com^
 ||app.posthog.com^
@@ -85695,6 +85718,7 @@ vkcdnservice.appspot.com^
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||sapphire-api.target.com^
 ||pixel.thoughtmetric.io^
 ||c9nyrr.puurfiguur.nl^
 ||ryrv0j.greenbeanbuddy.com^
@@ -95681,8 +95705,8 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN
 ! Description: The filter contains ad and tracking networks in Vietnam.
-! Last modified: 18 Mar 2025 23:48 UTC+7
-! Version: 2503182348
+! Last modified: 22 Mar 2025 17:17 UTC+7
+! Version: 2503221717
 ! Blocked: 874 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
@@ -96497,9 +96521,9 @@ inapps.appsflyersdk.com^
 !
 ! Title: hostsVN Threat
 ! Description: Only include threat domains
-! Last modified: 18 Mar 2025 23:48 UTC+7
-! Version: 2503182348
-! Blocked: 4.722 rules
+! Last modified: 22 Mar 2025 17:16 UTC+7
+! Version: 2503221716
+! Blocked: 4.724 rules
 ! Expires: 1 days (update frequency)
 ! Homepage: https://bigdargon.github.io/hostsVN/
 !
@@ -97711,6 +97735,7 @@ inapps.appsflyersdk.com^
 ||icloud.support^
 ||icloudhelp.com^
 ||icloudvi.com^
+||icswdocmv.on-ke.tech^
 ||id-icloud.com^
 ||id-vietconbank1.uuhuqtp.nethost-4011.000nethost.com^
 ||idapple.com^
@@ -101074,6 +101099,7 @@ inapps.appsflyersdk.com^
 ||zeroshop.cc^
 ||zingmp3.pro^
 ||zingshop.net^
+||zkika.okyla.de^
 ||zla653.top^
 ||zla963.top^
 ||zloweb.me^
@@ -101102,10 +101128,18 @@ inapps.appsflyersdk.com^
 ||51tongji.trafficmanager.net^
 ||67.21.92.*.gif
 ||cnzz.trafficmanager.net^
+||stemedntm.com^
+||r5twojylmzsym.top^
+||avkd.cn^
+||yxqmryq.top^
+||eldaridpr.com^
 ||feernhuhe.com^
 ||vhje.cn^
 ||bptnzp.top^
 ||ajoxxit.top^
+||gucx.cn^
+||ak03211hou.com^
+||neldipbtg.com^
 ||spkh.cn^
 ||sodenneyg.com^
 ||zqntbc.top^
