@@ -3,7 +3,12 @@
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
 # - Emby
+# - Supercell
 ########################################
 # - Emby
 DOMAIN-SUFFIX,xmsl.org
+# - Supercell
+DOMAIN-SUFFIX,supercell.com
+DOMAIN-SUFFIX,brawlstars.com
+DOMAIN-SUFFIX,brawlstarsgame.com
 ################# END ###################
