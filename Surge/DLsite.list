@@ -1,0 +1,10 @@
+########################################
+# LANIAKEA Ruleset - DLsite Service
+# GitHub: https://github.com/ZCXYHQ/Rule
+#
+# - DLsite
+#########################################
+DOMAIN-SUFFIX,dlsite.jp
+DOMAIN-SUFFIX,dlsite.com
+DOMAIN-KEYWORD,dlsite
+################# END ###################
