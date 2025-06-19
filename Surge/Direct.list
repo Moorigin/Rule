@@ -2,11 +2,8 @@
 # LANIAKEA Ruleset - Direct Service
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
-# - ChatWise
 # - PC528
 #########################################
 # - PC528
 DOMAIN-SUFFIX,pc528.net
-# - ChatWise
-DOMAIN-SUFFIX,chatwise.app
 ################# END ###################
