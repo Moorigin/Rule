@@ -1,5 +1,5 @@
 ########################################
-# LANIAKEA Ruleset - OTHER
+# LANIAKEA Ruleset - Other
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
 # - Emby
@@ -11,3 +11,4 @@ DOMAIN-SUFFIX,onyra.cc
 # - OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
 ################# END ###################
+
