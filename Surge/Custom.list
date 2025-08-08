@@ -1,15 +1,13 @@
 ########################################
-# LANIAKEA Ruleset - Custom Service
+# LANIAKEA Ruleset - OTHER
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
 # - Emby
-# - Supercell
+# - OpenRouter
 ########################################
 # - Emby
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,onyra.cc
-# - Supercell
-DOMAIN-SUFFIX,supercell.com
-DOMAIN-SUFFIX,brawlstars.com
-DOMAIN-SUFFIX,brawlstarsgame.com
+# - OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
 ################# END ###################
