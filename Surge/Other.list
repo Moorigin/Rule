@@ -4,11 +4,17 @@
 #
 # - Emby
 # - OpenRouter
+# - Shein
 ########################################
 # - Emby
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,onyra.cc
 # - OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
+# - Shein
+DOMAIN-SUFFIX,shein.com
+DOMAIN-SUFFIX,shein.se
+DOMAIN-SUFFIX,shein.co.uk
 ################# END ###################
+
 
