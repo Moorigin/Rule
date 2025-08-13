@@ -2,13 +2,12 @@
 # LANIAKEA Ruleset - Other
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
-# - Emby
+# - AI Gateway
 # - OpenRouter
 # - Shein
 ########################################
-# - Emby
-DOMAIN-SUFFIX,xmsl.org
-DOMAIN-SUFFIX,onyra.cc
+# - AI Gateway
+DOMAIN-SUFFIX,gateway.ai.cloudflare.com
 # - OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
 # - Shein
@@ -16,3 +15,4 @@ DOMAIN-SUFFIX,shein.com
 DOMAIN-SUFFIX,shein.se
 DOMAIN-SUFFIX,shein.co.uk
 ################# END ###################
+
