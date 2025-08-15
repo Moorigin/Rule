@@ -2,10 +2,24 @@
 # LANIAKEA Ruleset - Miscellaneous
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
+# - Binance
 # - Emby
 # - OpenRouter
 # - Shein
 ########################################
+# - Binance
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.com
 # - Emby
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,onyra.cc
@@ -17,4 +31,3 @@ DOMAIN-SUFFIX,shein.se
 DOMAIN-SUFFIX,shein.co.uk
 DOMAIN-SUFFIX,ltwebstatic.com
 ################# END ###################
-
