@@ -2,8 +2,11 @@
 # LANIAKEA Ruleset - Direct Service
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
+# - 172
 # - PC528
 #########################################
+# - 172
+DOMAIN-SUFFIX,lot-ml.com
 # - PC528
 DOMAIN-SUFFIX,pc528.net
 ################# END ###################
