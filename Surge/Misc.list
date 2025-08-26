@@ -3,6 +3,7 @@
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
 # - Binance
+# - Dler
 # - Emby
 # - OpenRouter
 # - Shein
@@ -20,6 +21,8 @@ DOMAIN-SUFFIX,bnbzh.ac
 DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,saasexch.cc
 DOMAIN-SUFFIX,saasexch.com
+# - Dler
+DOMAIN-SUFFIX,dler.cloud
 # - Emby
 DOMAIN-SUFFIX,xmsl.org
 # - OpenRouter
@@ -30,4 +33,5 @@ DOMAIN-SUFFIX,shein.se
 DOMAIN-SUFFIX,shein.co.uk
 DOMAIN-SUFFIX,ltwebstatic.com
 ################# END ###################
+
 
