@@ -20,6 +20,8 @@ DOMAIN-SUFFIX,bnbzh.ac
 DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,saasexch.cc
 DOMAIN-SUFFIX,saasexch.com
+# - Emby
+DOMAIN-SUFFIX,xmsl.org
 # - OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
 # - Shein
@@ -28,3 +30,4 @@ DOMAIN-SUFFIX,shein.se
 DOMAIN-SUFFIX,shein.co.uk
 DOMAIN-SUFFIX,ltwebstatic.com
 ################# END ###################
+
