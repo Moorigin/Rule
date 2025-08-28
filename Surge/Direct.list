@@ -5,6 +5,7 @@
 # - 172
 # - LAN
 # - PC528
+# - PROCESS
 #########################################
 # - 172
 DOMAIN-SUFFIX,lot-ml.com
@@ -42,4 +43,16 @@ IP-CIDR6,fc00::/7
 IP-CIDR6,fe80::/10
 # - PC528
 DOMAIN-SUFFIX,pc528.net
+# - PROCESS
+PROCESS-NAME,aria2c
+PROCESS-NAME,cloudflared
+PROCESS-NAME,Folx
+PROCESS-NAME,LocalSend
+PROCESS-NAME,qbittorrent*
+PROCESS-NAME,qBittorrent
+PROCESS-NAME,qbittorrent-nox
+PROCESS-NAME,Transmission
+PROCESS-NAME,transmission-daemon
+PROCESS-NAME,transmission-qt
+PROCESS-NAME,uTorrent
 ################# END ###################
