@@ -3,10 +3,17 @@
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
 # - 172
+# - Duxiaoman
 # - PC528
 #########################################
 # - 172
 DOMAIN-SUFFIX,lot-ml.com
+# - Duxiaoman
+DOMAIN-SUFFIX,duxiaoman.com
+DOMAIN-SUFFIX,duxiaomanfund.com
+DOMAIN-SUFFIX,duxiaomanfintech.com
+DOMAIN-SUFFIX,dxmpay.com
+DOMAIN-SUFFIX,dxmstatic.com
 # - PC528
 DOMAIN-SUFFIX,pc528.net
 ################# END ###################
