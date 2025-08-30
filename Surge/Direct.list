@@ -11,12 +11,13 @@
 # - 172
 DOMAIN-SUFFIX,lot-ml.com
 # - Apple CN
+DOMAIN,api.smoot.apple.cn
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN-SUFFIX,gspe19-cn-ssl.ls.apple.com
 DOMAIN-SUFFIX,cn-ssl.ls.apple.com
 DOMAIN-SUFFIX,cn.ls.apple.com
 DOMAIN-SUFFIX,cn.apple.com
-DOMAIN,api.smoot.apple.cn
+DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,apple.com.cn
 # - LAN
