@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,dler.cloud
 # - Emby
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,emby.moe
+DOMAIN-SUFFIX,loseremby.org
 # - OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
 # - Shein
@@ -34,6 +35,7 @@ DOMAIN-SUFFIX,shein.se
 DOMAIN-SUFFIX,shein.co.uk
 DOMAIN-SUFFIX,ltwebstatic.com
 ################# END ###################
+
 
 
 
