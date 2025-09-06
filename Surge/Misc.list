@@ -24,6 +24,8 @@ DOMAIN-SUFFIX,saasexch.com
 # - Dler
 DOMAIN-SUFFIX,dler.cloud
 # - Emby
+DOMAIN-SUFFIX,irisnb.com
+DOMAIN-SUFFIX,5203166.xyz
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,emby.moe
 DOMAIN-SUFFIX,xxlb.net
@@ -38,6 +40,7 @@ DOMAIN-SUFFIX,shein.se
 DOMAIN-SUFFIX,shein.co.uk
 DOMAIN-SUFFIX,ltwebstatic.com
 ################# END ###################
+
 
 
 
