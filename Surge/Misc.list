@@ -5,6 +5,7 @@
 # - Binance
 # - Dler
 # - Emby
+# - E-Hentai
 # - OpenRouter
 # - Shein
 ########################################
@@ -27,6 +28,15 @@ DOMAIN-SUFFIX,dler.cloud
 DOMAIN-SUFFIX,xmsl.org
 DOMAIN-SUFFIX,irisnb.com
 DOMAIN-SUFFIX,5203166.xyz
+# - E-Hentai
+DOMAIN-SUFFIX,e-hentai.org
+DOMAIN-SUFFIX,ehgt.org
+DOMAIN-SUFFIX,ehtracker.org
+DOMAIN-SUFFIX,ehwiki.org
+DOMAIN-SUFFIX,exhentai.org
+DOMAIN-SUFFIX,hath.network
+DOMAIN-SUFFIX,hentaiathome.net
+DOMAIN-SUFFIX,hentaiverse.org
 # - OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
 # - Shein
