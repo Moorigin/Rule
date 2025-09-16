@@ -2,74 +2,13 @@
 # LANIAKEA Ruleset - Porn Service
 # GitHub: https://github.com/ZCXYHQ/Rule
 #
-# - E-Hentai
-# - Hanime1
-# - Hanime
-# - Jable
-# - Javbus
-# - Javdb
-# - MissAV
+# - DLsite
 # - OnlyFans
-# - Picacg
-# - PornHub
-# - Supjav
-# - Xvideos
 ########################################
-# - E-Hentai
-DOMAIN-SUFFIX,e-hentai.org
-DOMAIN-SUFFIX,ehgt.org
-DOMAIN-SUFFIX,ehtracker.org
-DOMAIN-SUFFIX,ehwiki.org
-DOMAIN-SUFFIX,exhentai.org
-DOMAIN-SUFFIX,hath.network
-DOMAIN-SUFFIX,hentaiathome.net
-DOMAIN-SUFFIX,hentaiverse.org
-# - Hanime1
-DOMAIN-SUFFIX,hanime1.me
-# - Hanime
-DOMAIN-SUFFIX,hanime.tv
-# - Jable
-DOMAIN-SUFFIX,cdnlab.live
-DOMAIN-SUFFIX,jable.tv
-# - Javbus
-DOMAIN-SUFFIX,javbus.com
-DOMAIN-SUFFIX,javbus22.com
-DOMAIN-SUFFIX,javcdn.cc
-# - Javdb
-DOMAIN-SUFFIX,javdb.com
-DOMAIN-SUFFIX,jdbimgs.com
-DOMAIN-SUFFIX,jdbstatic.com
-# - MissAV
-DOMAIN-SUFFIX,missav.ai
-DOMAIN-SUFFIX,missav.ws
+# - DLsite
+DOMAIN-SUFFIX,dlsite.jp
+DOMAIN-SUFFIX,dlsite.com
+DOMAIN-KEYWORD,dlsite
 # - OnlyFans
 DOMAIN-SUFFIX,onlyfans.com
-# - Picacg
-DOMAIN-SUFFIX,bikaa.xyz
-DOMAIN-SUFFIX,bikac.xyz
-DOMAIN-SUFFIX,bikaios.xyz
-DOMAIN-SUFFIX,manhuabika.com
-DOMAIN-SUFFIX,picacgp.com
-DOMAIN-SUFFIX,picacgy.com
-DOMAIN-SUFFIX,picacn.xyz
-DOMAIN-SUFFIX,picacomic.com
-DOMAIN-SUFFIX,picacomic.xyz
-DOMAIN-SUFFIX,wikawika.xyz
-# - Pornhub
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,porhub.com
-DOMAIN-SUFFIX,porngub.com
-DOMAIN-SUFFIX,pornhub-deutsch.net
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubapparel.com
-DOMAIN-SUFFIX,pornhubpremium.com
-DOMAIN-SUFFIX,pronstore.com
-PROCESS-NAME,com.app.pornhub
-# - Supjav
-DOMAIN-SUFFIX,supjav.com
-# - Xvideos
-DOMAIN-SUFFIX,xvideos.com
-DOMAIN-SUFFIX,xvideos.red
-DOMAIN-SUFFIX,xvideos-cdn.com
 ################# END ###################
