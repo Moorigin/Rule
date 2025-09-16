@@ -4,6 +4,7 @@
 #
 # - DLsite
 # - OnlyFans
+# - Msic
 ########################################
 # - DLsite
 DOMAIN-SUFFIX,dlsite.jp
@@ -11,4 +12,7 @@ DOMAIN-SUFFIX,dlsite.com
 DOMAIN-KEYWORD,dlsite
 # - OnlyFans
 DOMAIN-SUFFIX,onlyfans.com
+# - Msic
+DOMAIN-SUFFIX,jp
+DOMAIN-SUFFIX,tokyo
 ################# END ###################
