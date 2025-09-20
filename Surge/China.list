@@ -4,10 +4,11 @@
 #
 # - 172
 # - Apple CN
+# - iHerb
 # - PC528
-# - PROCESS
+# - qBittorrent
+# - Transmission
 #########################################
-DOMAIN-SUFFIX,cn
 # - 172
 DOMAIN-SUFFIX,lot-ml.com
 # - Apple CN
@@ -20,18 +21,16 @@ DOMAIN-SUFFIX,cn.apple.com
 DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,apple.com.cn
+# - iHerb
+DOMAIN-SUFFIX,iherb.cn
 # - PC528
 DOMAIN-SUFFIX,pc528.net
-# - PROCESS
-PROCESS-NAME,aria2c
-PROCESS-NAME,cloudflared
-PROCESS-NAME,Folx
-PROCESS-NAME,LocalSend
+# - qBittorrent
 PROCESS-NAME,qbittorrent*
 PROCESS-NAME,qBittorrent
 PROCESS-NAME,qbittorrent-nox
+# - Transmission
 PROCESS-NAME,Transmission
 PROCESS-NAME,transmission-daemon
 PROCESS-NAME,transmission-qt
-PROCESS-NAME,uTorrent
 ################# END ###################
