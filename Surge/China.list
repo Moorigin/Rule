@@ -7,7 +7,6 @@
 # - iHerb
 # - PC528
 # - qBittorrent
-# - Transmission
 #########################################
 # - 172
 DOMAIN-SUFFIX,lot-ml.com
@@ -29,8 +28,4 @@ DOMAIN-SUFFIX,pc528.net
 PROCESS-NAME,qBittorrent
 PROCESS-NAME,qbittorrent*
 PROCESS-NAME,qbittorrent-nox
-# - Transmission
-PROCESS-NAME,Transmission
-PROCESS-NAME,transmission-daemon
-PROCESS-NAME,transmission-qt
 ################# END ###################
