@@ -26,8 +26,8 @@ DOMAIN-SUFFIX,iherb.cn
 # - PC528
 DOMAIN-SUFFIX,pc528.net
 # - qBittorrent
-PROCESS-NAME,qbittorrent*
 PROCESS-NAME,qBittorrent
+PROCESS-NAME,qbittorrent*
 PROCESS-NAME,qbittorrent-nox
 # - Transmission
 PROCESS-NAME,Transmission
